@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807394963624",
+    "firebase_url": "https://wallpaper-b49d4.firebaseio.com",
+    "project_id": "wallpaper-b49d4",
+    "storage_bucket": "wallpaper-b49d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807394963624:android:e422403c1fbc94a9bbd29d",
+        "android_client_info": {
+          "package_name": "mobile.project.animalwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807394963624-oi05ic75ppgftn13i7opvjpeimpcu2o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTNTYjWex3Ome5CSmIw3NXPLeMyQ_91ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807394963624-oi05ic75ppgftn13i7opvjpeimpcu2o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

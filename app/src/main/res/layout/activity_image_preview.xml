@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagePreview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/linierLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.6"
+            android:background="#333333"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/imageFav"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_marginRight="20dp"
+                android:text="Favorite"
+                android:textAllCaps="false"
+                android:textColor="@color/black">
+
+            </Button>
+
+            <Button
+                android:id="@+id/imageSetWall"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_marginRight="20dp"
+                android:text="Set Wallpaper"
+                android:textAllCaps="false"
+                android:textColor="@color/black">
+
+            </Button>
+
+            <Button
+                android:id="@+id/imageDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_marginRight="20dp"
+                android:text="Download"
+                android:textAllCaps="false"
+                android:textColor="@color/black">
+
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

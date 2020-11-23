@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnimalWallpaper</string>
+    <string name="title_activity_menu_utama">MainActivity</string>
+    <string name="title_home">Wallpaper</string>
+    <string name="title_dashboard">Favorite</string>
+    <string name="title_notifications">Another Apps</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+</resources>
